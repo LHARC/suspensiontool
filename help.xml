@@ -1,0 +1,20 @@
+<help popup="yes">
+SUSPENSION TOOL LHARC 0.1
+by Stoppered.
+
+Binds: always on
+"F12"  -  active suspension lower/upper toggle
+
+Binds: only on when F12 is enabled
+"Mouse scroll UP" - Raises the car's suspension
+"Mouse scroll DOWN" - Lower the car's suspension
+-----
+"Numpad +" - Raises the car's suspension
+"Numpad - " - Lower the car's suspension
+-----
+"Hold CTRL" - Allows change the suspension to button click
+
+Credits www.whispers.com.br / www.cshpforum.com
+
+
+</help>

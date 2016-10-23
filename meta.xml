@@ -1,0 +1,22 @@
+<meta>
+    <info author="Lucas H. (Stoppered)" type="script" version="0.1" name="Car suspension tool" description="Allow to adjust a car suspension" />
+<settings>
+		<!-- *****************************************************
+			 All these settings are adjustable in the Admin Panel:
+				1. start admin
+				2. press 'p'
+				3. select Resources tab
+				4. double click on 'suspension_tool'
+			Credits Lucas H. Stoppered www.whispers.com.br
+			 ***************************************************** -->
+   <setting name="*language" value="english" friendlyname="Language" group="General" accept="english,portuguese,spanish" examples="english,portuguese,spanish" desc="Translation for the suspension tool lharc"/>
+   <setting name="*limit" value="true" friendlyname="Suspension limit" group="General" accept="true,false" examples="true,false" desc="Recommended true for any issues"/>
+   <setting name="*suspensionmove" value="false" friendlyname="Suspension moving" group="General" accept="true,false" examples="true,false" desc="Recommended false for not use suspension when car move"/>
+  <setting name="*messagedriver" value="true" friendlyname="Notify driver" group="General" accept="true,false" examples="true,false" desc="Warns the driver about the suspension system when he gets in the car"/>
+	</settings>
+	    <config src="help.xml" type="client"/>
+<script src="suspension_s.lua" type="server" />
+<script src="suspension_c.lua" type="client" />
+<script src="suspension_c_hud.lua" type="client" />
+<script src="translate/suspension_language_c.lua" type="client" />
+</meta>
