@@ -18,5 +18,5 @@
 <script src="suspension_s.lua" type="server" />
 <script src="suspension_c.lua" type="client" />
 <script src="suspension_c_hud.lua" type="client" />
-<script src="translate/suspension_language_c.lua" type="client" />
+<script src="suspension_language_c.lua" type="client" />
 </meta>
